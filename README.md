@@ -2,6 +2,9 @@
 
 A simple blockchain system to issue, store, and verify academic certificates securely.
 
+
+---
+
 🚀 Project Overview
 
 Fake certificates are a real problem today. Employers waste time verifying, students face fraud risks, and universities need a tamper-proof system.
@@ -14,7 +17,11 @@ Blockchain makes records tamper-proof.
 
 Employers instantly verify a student’s certificate by querying the blockchain.
 
+
 ✅ No fakes. No manual verification. 100% trust.
+
+
+---
 
 🔑 Key Features
 
@@ -28,27 +35,39 @@ Employer Verification → query student name to check authenticity.
 
 Immutable Ledger → once a certificate is added, it can’t be altered.
 
+
+
+---
+
 🛠️ How It Works (in simple steps)
+
 1️⃣ University Issues a Certificate
+
 > Add certificate record
 Enter University ID: U001
 Student Name: Moham
 Course: B.Tech Computer Science
 Year: 2025
 
-
 👉 Certificate gets added to pending transactions.
 
+
+---
+
 2️⃣ Mining the Block
+
 > Mine block
 Enter University ID: U001
 ✅ Block mined: 000f3b12e…
 🎓 Block validated by Oxford University
 
-
 👉 Pending certificates are locked into blockchain with a hash.
 
+
+---
+
 3️⃣ Employer Verifies a Student
+
 > Verify certificate
 Enter Student Name: Moham
 🎓 Certificates found for Moham:
@@ -59,19 +78,22 @@ Enter Student Name: Moham
   "year": "2025"
 }
 
-
 👉 Employer instantly knows it’s genuine.
+
+
+---
 
 🖥️ How to Run in VS Code
 
-Save file as edu_blockchain.py.
+1. Save file as edu_blockchain.py.
 
-Open VS Code → Terminal → run:
+
+2. Open VS Code → Terminal → run:
 
 python edu_blockchain.py
 
 
-Use the menu options:
+3. Use the menu options:
 
 1 → Add certificate (University only)
 
@@ -85,6 +107,12 @@ Use the menu options:
 
 6 → Exit
 
+
+
+
+
+---
+
 📊 Why This Project is Needed
 
 🎓 Students → Protect their hard-earned degrees from fraud.
@@ -93,7 +121,11 @@ Use the menu options:
 
 🏫 Universities → Prove they issued the certificate, no one else can fake it.
 
+
 👉 In short: Transparency, Security, Trust.
+
+
+---
 
 🌟 Future Enhancements
 
@@ -105,6 +137,10 @@ Use the menu options:
 
 📲 Mobile app for real-time verification.
 
+
+
+---
+
 🏆 Project Value
 
 This is not just a “blockchain demo”.
@@ -115,5 +151,9 @@ Time ⏳ (instant verification)
 Money 💰 (no third-party verification agencies)
 
 Reputation 🔒 (no fake degrees floating around)
+
+
+
+---
 
 ✍️ Built with ❤️ to prove that blockchain isn’t just about Bitcoin — it can secure your education too.
